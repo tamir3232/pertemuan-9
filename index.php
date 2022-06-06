@@ -18,8 +18,8 @@ $menu= query("SELECT * FROM menu");
       <title>Document</title>
   </head>
   <body>
-        <h1>masukan daftar mashasiswa</h1>
-       <h1>Daftar Mahasiswa</h1>
+        <h4>masukan daftar mashasiswa</h4>
+       <h4>Daftar Mahasiswa</h4>
        <a href="tambah.php">TAMBAH DATA</a>
        <br>
        <table border="2" cellpadding="20" cellspacing = "0">
@@ -30,7 +30,7 @@ $menu= query("SELECT * FROM menu");
          <th>Nama</th>
          <th>harga</th>
        </tr>
-       <?php $i=1; ?>
+       
        <?php foreach($menu as $row): ?>
         <tr>
           <td><?= $i++ ?></td>
@@ -48,6 +48,9 @@ $menu= query("SELECT * FROM menu");
         
         </tr>
         <?php endforeach; ?>
+
+
+        <p>coba paragraph</p>
        </table>
   <script></script>
   </body>
