@@ -18,7 +18,7 @@ $menu= query("SELECT * FROM menu");
       <title>Document</title>
   </head>
   <body>
-        <h1>masukan daftar mashasiswa</h1>
+        <h3>masukan daftar mashasiswa</h3>
        <h1>Daftar Mahasiswa</h1>
        <a href="tambah.php">TAMBAH DATA</a>
        <br>
@@ -30,7 +30,7 @@ $menu= query("SELECT * FROM menu");
          <th>Nama</th>
          <th>harga</th>
        </tr>
-       <?php $i=1; ?>
+       <?php $i=2; ?>
        <?php foreach($menu as $row): ?>
         <tr>
           <td><?= $i++ ?></td>
@@ -47,6 +47,7 @@ $menu= query("SELECT * FROM menu");
           
         
         </tr>
+        <p>contoh paragraf</p>
         <?php endforeach; ?>
        </table>
   <script></script>
