@@ -33,6 +33,7 @@ $menu= query("SELECT * FROM menu");
          <th>aksi</th>
          <th>Nama</th>
          <th>harga</th>
+         <th>nama</th>
        </tr>
 
        
